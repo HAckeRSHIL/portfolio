@@ -77,7 +77,7 @@ const Page = () => {
               />
             </div>
             <section className='flex flex-col justify-center'>
-              <h2 className='title'>Jonathan Trevino</h2>
+              <h2 className='title'>Harshil Patel</h2>
               <h5 className='text-[14px] text-light-title dark:text-dark-title'>
                 Software Engineer
               </h5>

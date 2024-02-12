@@ -6,9 +6,9 @@ import NavBar from './components/navbar/navbar';
 const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
-  title: 'Jonathan Trevino',
+  title: 'Harshil Patel',
   description:
-    'Jonathan Trevino: Experienced Software Engineer with 2 years of expertise in full-stack development, agile methodologies, and cutting-edge technologies. Delivering scalable solutions, optimized code, and seamless user experiences for web and mobile applications.',
+    'Harshil Patel: Experienced Software Engineer with 2 years of expertise in full-stack development, agile methodologies, and cutting-edge technologies. Delivering scalable solutions, optimized code, and seamless user experiences for web and mobile applications.',
   metadataBase: new URL('https://yeahimjt.me'),
 };
 

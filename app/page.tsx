@@ -28,24 +28,26 @@ export default function Home() {
               />
             </div>
             <section className='space-y-1'>
-              <h1>Jonathan Trevino</h1>
+              <h1>Harshil Patel</h1>
               <p>
                 A <span className='bold'>software engineer</span> with a passion
-                in <span className='bold'>ui</span> and{' '}
-                <span className='bold'>front end development</span>
+                in <span className='bold'>full stack development</span> and{' '}
+                <span className='bold'>competitive coding</span>. A graduate
+                student majoring in Software Engineering with a focus on
+                Enterprise software.
               </p>
             </section>
             <section className='flex justify-end gap-[10px] pt-8'>
               <a
                 target='_blank'
                 rel='noreferrer'
-                href='https://docs.google.com/document/d/12HWsc0QCJh_Z6-YBHAPzM31UkaKWzOh6pYE7yaFGJ-c/edit?usp=sharing'
+                href='https://docs.google.com/document/d/10bm6ENzVVDtT7B2hR6qeLSN_mVFGkhhL/edit?usp=sharing&ouid=114781405583959594072&rtpof=true&sd=true'
                 className='text-light-general hover:text-light-subtitle dark:text-dark-general dark:hover:text-dark-subtitle'
               >
                 <FileText />
               </a>
               <a
-                href='https://github.com/yeahimjt?tab=repositories'
+                href='https://github.com/hackershil?tab=repositories'
                 target='_blank'
                 rel='noreferrer'
                 className='text-light-general hover:text-light-subtitle dark:text-dark-general dark:hover:text-dark-subtitle'
@@ -53,7 +55,7 @@ export default function Home() {
                 <Github />
               </a>
               <a
-                href='https://www.linkedin.com/in/jonathan-trevino/'
+                href='https://www.linkedin.com/in/hackershil/'
                 rel='noreferrer'
                 target='_blank'
                 className='text-light-general hover:text-light-subtitle dark:text-dark-general dark:hover:text-dark-subtitle'
@@ -64,20 +66,22 @@ export default function Home() {
           </span>
           <span className='col-span-4 space-y-4 lg:col-span-2'>
             <p>
-              While pursuing my bachelors of computer science, with a minor in
-              cyber security, web development became a rabbit hole I dove into
-              head first.
+              I excel in developing fast, scalable, and smooth software for
+              enterprises.
             </p>
             <p>
-              Since then I have had freelance experience developing a web
-              application, and created full stack projects that serve a
-              functional purpose.{' '}
+              I bring 2 years of hands-on experience from AI-based startups,
+              where I delivered centralized analytics tools for multinational
+              businesses. Experience in managing large data, crafting
+              user-friendly web apps, and automating tasks for streamlined
+              development.
             </p>
             <p>
               I frequently dedicate time to enhance my current skills in
-              Next.js, React.js, Tailwind, and TypeScript, aiming to write clean
-              and efficient code.
+              React.js, Tailwind, TypeScript, Node.js and Python aiming to write
+              clean and efficient code.
             </p>
+            <p>Currently learning Next.js, Electron, GraphQL, Redis, AWS.</p>
           </span>
         </header>
         <ProjectSection />
