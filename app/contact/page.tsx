@@ -88,9 +88,9 @@ const Page = () => {
               <h2 className='text-opacity-70'>
                 <Mail />
               </h2>
-              <a href='mailto:yeahimjt@gmail.com'>
+              <a href='mailto:harshily147@gmail.com'>
                 <p className='underline underline-offset-2'>
-                  yeahimjt@gmail.com
+                  harshily147@gmail.com
                 </p>
               </a>
             </span>
@@ -99,12 +99,12 @@ const Page = () => {
                 <Linkedin />
               </h2>
               <a
-                href='https://linkedin.com/in/jonathan-trevino'
+                href='https://linkedin.com/in/hackershil'
                 rel='noreferrer'
                 target='_blank'
               >
                 <p className='underline underline-offset-2'>
-                  https://linkedin.com/in/jonathan-trevino
+                  https://linkedin.com/in/hackershil
                 </p>
               </a>
             </span>
@@ -113,7 +113,7 @@ const Page = () => {
               <h2 className='text-opacity-70'>
                 <Globe />
               </h2>
-              <p>Edinburg, Texas</p>
+              <p>San Jose, California</p>
             </span>
             <span className='flex gap-[15px]'>
               <h2 className='text-opacity-70'>

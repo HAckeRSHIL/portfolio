@@ -30,7 +30,7 @@ const ProjectSample = ({ project }: ProjectSample) => {
   return (
     <section className='col-span-1 flex flex-col gap-[20px] space-y-2 md:flex-row'>
       <Image
-        className='initial-clip-path-image w-full md:w-auto'
+        className='initial-clip-path-image w-full rounded-xl md:w-auto'
         src={project.image_url}
         width={343}
         height={166}
