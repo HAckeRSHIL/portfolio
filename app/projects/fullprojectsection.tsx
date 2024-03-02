@@ -69,8 +69,14 @@ const FullProjectSection = ({ data }: FullProjectSectionProps) => {
         </section>
       </section>
 
-      <section className='col-span-6 lg:col-span-3'>
-        <Image src={data.image_url} width={800} height={800} alt='' />
+      <section className='col-span-6 rounded-xl lg:col-span-3'>
+        <Image
+          src={data.image_url}
+          width={800}
+          height={800}
+          alt=''
+          className='rounded-xl'
+        />
       </section>
     </div>
   );

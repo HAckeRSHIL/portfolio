@@ -3,7 +3,7 @@ import FullProjectSection from '../fullprojectsection';
 import ExploreMore from '../exploremore';
 import NavBar from '@/app/components/navbar/navbar';
 
-const crossify_project_data = {
+const projectData = {
   title: 'Crossify',
   category: 'Event and Club driven social media',
   skills: [
@@ -49,8 +49,8 @@ const crossify_project_data = {
   challenges:
     'One problem we encountered was finding the optimal method for locating nearby events/clubs and implementing pagination. Initially, we used a brute force approach by calculating distances based on latitude and longitude differences. However, this significantly impacted performance. Subsequently, we transitioned to using GeoSpatial Queries and created an index based on the lat-long attribute.\n Another challenge we faced was effectively sending promotional messages, signup confirmations, reminders, broadcasting updates, and providing visually appealing emails to users. To address this, we utilized Handlebars and EJS for creating visually appealing emails and leveraged server-side template-based mailing services. Initially, we attempted to use regular Gmail and Nodemailer for sending emails, but this often resulted in our messages being flagged as spam. Consequently, we switched to MailChimp for sending bulk messages.',
   results: 'Crossify',
-  last: '/projects/harbor',
-  next: '/projects/exhibitify',
+  last: '/projects/invoice-automation',
+  next: '/projects/invoice-automation',
   warning: null,
 };
 
@@ -59,8 +59,8 @@ const page = () => {
     <>
       <NavBar />
       <main className='mt-[80px] grid grid-cols-6'>
-        <FullProjectSection data={crossify_project_data} />
-        {/* <ExploreMore previous={clinkz_data.last} next={clinkz_data.next} /> */}
+        <FullProjectSection data={projectData} />
+        <ExploreMore previous={projectData.last} next={projectData.next} />
       </main>
     </>
   );

@@ -28,7 +28,7 @@ const ProjectSample = ({ project }: ProjectSample) => {
     }
   }, [loaded]);
   return (
-    <section className='col-span-1 flex flex-col gap-[20px] space-y-2 md:flex-row'>
+    <section className='col-span-1 mb-8 flex flex-col gap-[20px] space-y-2 md:flex-row'>
       <Image
         className='initial-clip-path-image w-full rounded-xl md:w-auto'
         src={project.image_url}
