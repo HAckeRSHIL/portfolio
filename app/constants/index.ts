@@ -135,6 +135,40 @@ export const sampler_experience: ExperienceList = [
   },
 ];
 
+export const achievements: ExperienceList = [
+  {
+    title: 'Top 1.25% in CodeChef October Challenge',
+    timeframe: 'Oct 2020',
+    company: 'CodeChef',
+    description: '263 out of 20,000+ participants',
+  },
+  {
+    title: 'Top 1.19% in CodeChef September Challenge',
+    timeframe: 'Sep 2020',
+    company: 'CodeChef',
+    description: '357 out of 30,000+ participants',
+  },
+  {
+    title: 'Top 3.5% in Facebook Hackercup round',
+    timeframe: 'Oct 2020',
+    company: 'Facebook Hackercup',
+    description: '1167 out of 32,000+ participants',
+  },
+  {
+    title: 'Secured 886 Rank in CodeChef July Challenge',
+    timeframe: 'July 2020',
+    company: 'CodeChef Hackercup',
+    description:
+      'solved 7 problems with 1 partially right solution out of 10 problems(15 Days long Competition)',
+  },
+  {
+    title: 'Secured 1166 Rank in CodeVita 2020 Round 1',
+    timeframe: 'Aug 2020',
+    company: 'CodeVita 2020',
+    description: 'Highest Rank in the college.',
+  },
+];
+
 export const skills = [
   'next',
   'react',

@@ -23,7 +23,68 @@ import NginxIcon from '@/public/icons/nginx.svg';
 import AngularIcon from '@/public/icons/angular.svg';
 import HtmlIcon from '@/public/icons/html.svg';
 import CssIcon from '@/public/icons/css.svg';
+import GraphQLIcon from '@/public/icons/graphql.svg';
+import LinuxIcon from '@/public/icons/linux.svg';
+import GitIcon from '@/public/icons/git.svg';
+import JiraIcon from '@/public/icons/jira.svg';
+import ReduxIcon from '@/public/icons/redux.svg';
+import BootstrapIcon from '@/public/icons/bootstrap.svg';
+import KafkaIcon from '@/public/icons/kafka.svg';
+import DjangoIcon from '@/public/icons/django.svg';
+import PostgresIcon from '@/public/icons/postgres.svg';
 import { handleSkillContainer } from '@/app/animations';
+
+const SkillIcon = ({
+  IconComponent,
+  skillName,
+}: {
+  IconComponent: React.ElementType;
+  skillName: string;
+}) => (
+  <div className='skill-container group relative bg-light-container dark:bg-dark-container'>
+    <div className='opacity-100 transition-opacity group-hover:opacity-0'>
+      <IconComponent />
+    </div>
+    <p className='absolute bottom-1 right-1 text-light-title opacity-0 transition-opacity group-hover:opacity-100 dark:text-dark-title'>
+      {skillName}
+    </p>
+  </div>
+);
+
+const skills = [
+  { IconComponent: ReactIcon, name: 'react' },
+  { IconComponent: JavaScriptIcon, name: 'javascript' },
+  { IconComponent: TypeScriptIcon, name: 'typescript' },
+  { IconComponent: HtmlIcon, name: 'html' },
+  { IconComponent: CssIcon, name: 'css' },
+  { IconComponent: TailwindIcon, name: 'tailwind' },
+  { IconComponent: NextIcon, name: 'next' },
+  { IconComponent: AngularIcon, name: 'angular' },
+  { IconComponent: ExpressIcon, name: 'express' },
+  { IconComponent: NodeJSIcon, name: 'node.js' },
+  { IconComponent: DjangoIcon, name: 'django' },
+  { IconComponent: MySQLIcon, name: 'mysql' },
+  { IconComponent: GraphQLIcon, name: 'graphQL' },
+  { IconComponent: PostgresIcon, name: 'postgreSQL' },
+  { IconComponent: NginxIcon, name: 'nginx' },
+  { IconComponent: MongoIcon, name: 'mongo' },
+  { IconComponent: AwsIcon, name: 'aws' },
+  { IconComponent: DockerIcon, name: 'docker' },
+  { IconComponent: KubernetsIcon, name: 'kubernetes' },
+  { IconComponent: JenkinsIcon, name: 'jenkins' },
+  { IconComponent: KafkaIcon, name: 'kafka' },
+  { IconComponent: LinuxIcon, name: 'linux/unix' },
+  { IconComponent: ElasticSearchIcon, name: 'elasticsearch' },
+  { IconComponent: GitIcon, name: 'git' },
+  { IconComponent: CIcon, name: 'c' },
+  { IconComponent: CplusplusIcon, name: 'c++' },
+  { IconComponent: CSharpIcon, name: 'c#' },
+  { IconComponent: PythonIcon, name: 'python' },
+  { IconComponent: JavaIcon, name: 'java' },
+  { IconComponent: JiraIcon, name: 'jira' },
+  { IconComponent: ReduxIcon, name: 'redux' },
+  { IconComponent: BootstrapIcon, name: 'bootstrap' },
+];
 
 const SkillsSection = () => {
   useEffect(() => {
@@ -31,196 +92,18 @@ const SkillsSection = () => {
   }, []);
   return (
     <section
-      className='col-span-6 space-y-[40px]  pt-[80px] lg:col-start-2 lg:col-end-6'
+      className='col-span-6 space-y-[40px] pt-[80px] lg:col-start-2 lg:col-end-6'
       id='skill'
     >
       <h1 className='title below-fold'>SKILLS</h1>
       <section className='flex flex-wrap gap-[20px]'>
-        <div className='skill-container group relative bg-light-container dark:bg-dark-container'>
-          <div className='opacity-100 transition-opacity group-hover:opacity-0'>
-            <ReactIcon />
-          </div>
-          <p className='absolute bottom-1 right-1 text-light-title opacity-0 transition-opacity group-hover:opacity-100 dark:text-dark-title'>
-            react
-          </p>
-        </div>
-        <div className='skill-container group relative bg-light-container dark:bg-dark-container'>
-          <div className='opacity-100 transition-opacity group-hover:opacity-0'>
-            <TailwindIcon />
-          </div>
-          <p className='absolute bottom-1 right-1 text-light-title opacity-0 transition-opacity group-hover:opacity-100 dark:text-dark-title'>
-            tailwind
-          </p>
-        </div>
-        <div className='skill-container group relative bg-light-container dark:bg-dark-container'>
-          <div className='opacity-100 transition-opacity group-hover:opacity-0'>
-            <NextIcon />
-          </div>
-          <p className='absolute bottom-1 right-1 text-light-title opacity-0 transition-opacity group-hover:opacity-100 dark:text-dark-title'>
-            next
-          </p>
-        </div>
-        <div className='skill-container group relative bg-light-container dark:bg-dark-container'>
-          <div className='opacity-100 transition-opacity group-hover:opacity-0'>
-            <AngularIcon />
-          </div>
-          <p className='group-hover:opacity-10000 absolute bottom-1 right-1 text-light-title opacity-0 transition-opacity group-hover:opacity-100 dark:text-dark-title'>
-            angular
-          </p>
-        </div>
-        <div className='skill-container group relative bg-light-container dark:bg-dark-container'>
-          <div className='opacity-100 transition-opacity group-hover:opacity-0'>
-            <HtmlIcon />
-          </div>
-          <p className='group-hover:opacity-10000 absolute bottom-1 right-1 text-light-title opacity-0 transition-opacity group-hover:opacity-100 dark:text-dark-title'>
-            html
-          </p>
-        </div>
-        <div className='skill-container group relative bg-light-container dark:bg-dark-container'>
-          <div className='opacity-100 transition-opacity group-hover:opacity-0'>
-            <CssIcon />
-          </div>
-          <p className='group-hover:opacity-10000 absolute bottom-1 right-1 text-light-title opacity-0 transition-opacity group-hover:opacity-100 dark:text-dark-title'>
-            css
-          </p>
-        </div>
-        <div className='skill-container group relative bg-light-container dark:bg-dark-container'>
-          <div className='opacity-100 transition-opacity group-hover:opacity-0'>
-            <JavaScriptIcon />
-          </div>
-          <p className='absolute bottom-1 right-1 text-light-title opacity-0 transition-opacity group-hover:opacity-100 dark:text-dark-title'>
-            javascript
-          </p>
-        </div>
-        <div className='skill-container group relative bg-light-container dark:bg-dark-container'>
-          <div className='opacity-100 transition-opacity group-hover:opacity-0'>
-            <TypeScriptIcon />
-          </div>
-          <p className='absolute bottom-1 right-1 text-light-title opacity-0 transition-opacity group-hover:opacity-100 dark:text-dark-title'>
-            typescript
-          </p>
-        </div>
-        <div className='skill-container group relative bg-light-container dark:bg-dark-container'>
-          <div className='opacity-100 transition-opacity group-hover:opacity-0'>
-            <ElasticSearchIcon />
-          </div>
-          <p className='group-hover:opacity-10000 absolute bottom-1 right-1 text-light-title opacity-0 transition-opacity group-hover:opacity-100 dark:text-dark-title'>
-            elasticsearch
-          </p>
-        </div>
-        <div className='skill-container group relative bg-light-container dark:bg-dark-container'>
-          <div className='opacity-100 transition-opacity group-hover:opacity-0'>
-            <DockerIcon />
-          </div>
-          <p className='group-hover:opacity-10000 absolute bottom-1 right-1 text-light-title opacity-0 transition-opacity group-hover:opacity-100 dark:text-dark-title'>
-            docker
-          </p>
-        </div>
-        <div className='skill-container group relative bg-light-container dark:bg-dark-container'>
-          <div className='opacity-100 transition-opacity group-hover:opacity-0'>
-            <KubernetsIcon />
-          </div>
-          <p className='group-hover:opacity-10000 absolute bottom-1 right-1 text-light-title opacity-0 transition-opacity group-hover:opacity-100 dark:text-dark-title'>
-            kubernetes
-          </p>
-        </div>
-        <div className='skill-container group relative bg-light-container dark:bg-dark-container'>
-          <div className='opacity-100 transition-opacity group-hover:opacity-0'>
-            <JenkinsIcon />
-          </div>
-          <p className='group-hover:opacity-10000 absolute bottom-1 right-1 text-light-title opacity-0 transition-opacity group-hover:opacity-100 dark:text-dark-title'>
-            jenkins
-          </p>
-        </div>
-        <div className='skill-container group relative bg-light-container dark:bg-dark-container'>
-          <div className='opacity-100 transition-opacity group-hover:opacity-0'>
-            <NginxIcon />
-          </div>
-          <p className='group-hover:opacity-10000 absolute bottom-1 right-1 text-light-title opacity-0 transition-opacity group-hover:opacity-100 dark:text-dark-title'>
-            nginx
-          </p>
-        </div>
-        <div className='skill-container group relative bg-light-container dark:bg-dark-container'>
-          <div className='opacity-100 transition-opacity group-hover:opacity-0'>
-            <NodeJSIcon />
-          </div>
-          <p className='absolute bottom-1 right-1 text-light-title opacity-0 transition-opacity group-hover:opacity-100 dark:text-dark-title'>
-            node.js
-          </p>
-        </div>
-        <div className='skill-container group relative bg-light-container dark:bg-dark-container'>
-          <div className='opacity-100 transition-opacity group-hover:opacity-0'>
-            <ExpressIcon />
-          </div>
-          <p className='absolute bottom-1 right-1 text-light-title opacity-0 transition-opacity group-hover:opacity-100 dark:text-dark-title'>
-            express
-          </p>
-        </div>
-        <div className='skill-container group relative bg-light-container dark:bg-dark-container'>
-          <div className='opacity-100 transition-opacity group-hover:opacity-0'>
-            <AwsIcon />
-          </div>
-          <p className='absolute bottom-1 right-1 text-light-title opacity-0 transition-opacity group-hover:opacity-100 dark:text-dark-title'>
-            aws
-          </p>
-        </div>
-
-        <div className='skill-container group relative bg-light-container dark:bg-dark-container'>
-          <div className='opacity-100 transition-opacity group-hover:opacity-0'>
-            <MySQLIcon />
-          </div>
-          <p className='absolute bottom-1 right-1 text-light-title opacity-0 transition-opacity group-hover:opacity-100 dark:text-dark-title'>
-            mysql
-          </p>
-        </div>
-        <div className='skill-container group relative bg-light-container dark:bg-dark-container'>
-          <div className='opacity-100 transition-opacity group-hover:opacity-0'>
-            <MongoIcon />
-          </div>
-          <p className='absolute bottom-1 right-1 text-light-title opacity-0 transition-opacity group-hover:opacity-100 dark:text-dark-title'>
-            mongo
-          </p>
-        </div>
-        <div className='skill-container group relative bg-light-container dark:bg-dark-container'>
-          <div className='opacity-100 transition-opacity group-hover:opacity-0'>
-            <JavaIcon />
-          </div>
-          <p className='absolute bottom-1 right-1 text-light-title opacity-0 transition-opacity group-hover:opacity-100 dark:text-dark-title'>
-            java
-          </p>
-        </div>
-        <div className='skill-container group relative bg-light-container dark:bg-dark-container'>
-          <div className='opacity-100 transition-opacity group-hover:opacity-0'>
-            <CIcon />
-          </div>
-          <p className='absolute bottom-1 right-1 text-light-title opacity-0 transition-opacity group-hover:opacity-100 dark:text-dark-title'>
-            c
-          </p>
-        </div>
-        <div className='skill-container group relative bg-light-container dark:bg-dark-container'>
-          <div className='opacity-100 transition-opacity group-hover:opacity-0'>
-            <CplusplusIcon />
-          </div>
-          <p className='absolute bottom-1 right-1 text-light-title opacity-0 transition-opacity group-hover:opacity-100 dark:text-dark-title'>
-            C++
-          </p>
-        </div>
-        <div className='skill-container group relative bg-light-container dark:bg-dark-container'>
-          <div className='opacity-100 transition-opacity group-hover:opacity-0'>
-            <CSharpIcon />
-          </div>
-          <p className='absolute bottom-1 right-1 text-light-title opacity-0 transition-opacity group-hover:opacity-100 dark:text-dark-title'>
-            c#
-          </p>
-        </div>
-        <div className='skill-container group relative bg-light-container dark:bg-dark-container'>
-          <div className='opacity-100 transition-opacity group-hover:opacity-0'>
-            <PythonIcon />
-          </div>
-          <p className='absolute bottom-1 right-1 text-light-title opacity-0 transition-opacity group-hover:opacity-100 dark:text-dark-title'>
-            python
-          </p>
-        </div>
+        {skills.map((skill, index) => (
+          <SkillIcon
+            key={index}
+            IconComponent={skill.IconComponent}
+            skillName={skill.name}
+          />
+        ))}
       </section>
     </section>
   );

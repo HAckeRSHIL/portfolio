@@ -8,6 +8,7 @@ import CtaSection from './components/cta/section';
 import FooterSection from './components/footer/section';
 import Follow from './components/navbar/follow';
 import NavBar from './components/navbar/navbar';
+import AchievementSection from './components/achievements/section';
 
 export default function Home() {
   return (
@@ -86,6 +87,7 @@ export default function Home() {
         </header>
         <ProjectSection />
         <ExperienceSection />
+        <AchievementSection />
         <SkillsSection />
         <CtaSection />
       </main>
