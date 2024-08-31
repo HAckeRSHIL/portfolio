@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title: 'Harshil Patel',
   description:
     'Harshil Patel: Experienced Software Engineer with 2 years of expertise in full-stack development, agile methodologies, and cutting-edge technologies. Delivering scalable solutions, optimized code, and seamless user experiences for web and mobile applications.',
-  metadataBase: new URL('https://yeahimjt.me'),
+  metadataBase: new URL('https://hackershil.me'),
 };
 
 export default function RootLayout({

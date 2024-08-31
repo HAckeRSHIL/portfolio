@@ -71,7 +71,7 @@ export default function Home() {
               enterprises.
             </p>
             <p>
-              I bring 2 years of hands-on experience from AI-based startups,
+              I bring 3 years of hands-on experience from cisco and AI-based startups
               where I delivered centralized analytics tools for multinational
               businesses. Experience in managing large data, crafting
               user-friendly web apps, and automating tasks for streamlined

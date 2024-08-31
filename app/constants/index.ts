@@ -99,6 +99,13 @@ export const sampler_projects: ProjectList = [
 
 export const sampler_experience: ExperienceList = [
   {
+    title: 'Software Engineer II Intern',
+    timeframe: 'May 2024 - August 2024',
+    company: 'Cisco',
+    description:
+      'Developed Ops Control Center from scratch (React.js, Python, Flask, Ngnix, Shell, OAuth), a centralized platform for monitoring and managing Saas deployments. Engineered a scalable backend with Python(Flask) and DocumentDB. Built agent(Python) that runs on edge nodes facilitating non blocking distributed execution for handling tasks and providing heart details. Integrating Kubernetes operations, Docker operations, migration of resources to AWS, capturing logs and metrics for monitoring and alerting.',
+  },
+  {
     title: 'Master of Science in Software Engineering',
     timeframe: 'Aug 2023 - May 2025',
     company: 'San Jose State University',
