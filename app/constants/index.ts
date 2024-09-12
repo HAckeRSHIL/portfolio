@@ -27,6 +27,18 @@ export const sampler_projects: ProjectList = [
     color: '#C0D6E8',
   },
   {
+    title: 'GitTypography',
+    category: 'GitHub Contribution Art',
+    skills: ['Python', 'Git', 'GitHub API', 'Automation'],
+    live_link: null,
+    github_link: 'https://github.com/HAckeRSHIL/text-on-github',
+    redirect_link: '/projects/git-typography',
+    warning: null,
+    image_url: '/image/git-typography.gif',
+    color: '#C0D6E8',
+  },
+
+  {
     title: 'Invoice Automation',
     category: 'Invoice Parser | Extractor | Visualizer',
     skills: [

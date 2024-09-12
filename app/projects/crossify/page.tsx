@@ -50,7 +50,7 @@ const projectData = {
     'One problem we encountered was finding the optimal method for locating nearby events/clubs and implementing pagination. Initially, we used a brute force approach by calculating distances based on latitude and longitude differences. However, this significantly impacted performance. Subsequently, we transitioned to using GeoSpatial Queries and created an index based on the lat-long attribute.\n Another challenge we faced was effectively sending promotional messages, signup confirmations, reminders, broadcasting updates, and providing visually appealing emails to users. To address this, we utilized Handlebars and EJS for creating visually appealing emails and leveraged server-side template-based mailing services. Initially, we attempted to use regular Gmail and Nodemailer for sending emails, but this often resulted in our messages being flagged as spam. Consequently, we switched to MailChimp for sending bulk messages.',
   results: 'Crossify',
   last: '/projects/invoice-automation',
-  next: '/projects/invoice-automation',
+  next: '/projects/git-typography',
   warning: null,
 };
 

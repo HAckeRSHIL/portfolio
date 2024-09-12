@@ -44,7 +44,7 @@ const projectData = {
   challenges:
     "One of the first challenges is storing and parsing the PDF. I tried several libraries, but encountered issues with some of them. After some trial and error, I opted for a simple approach: storing the PDF in the backend itself since we don't have many invoices, and using pdf.js to parse the content. After parsing the content, the main challenge was understanding the structure and parsing the data using regular expressions (regex) that could handle multiple types of PDFs. To address this, I developed a generic extraction regex combined with some specific extraction regex. While this approach worked well, the parsing required a lot of logic, and extending support for different PDFs would require significant development effort.",
   results: 'Invoice Automation (However my uncle is still using Excel xD)',
-  last: '/projects/crossify',
+  last: '/projects/git-typography',
   next: '/projects/crossify',
   warning: null,
 };
