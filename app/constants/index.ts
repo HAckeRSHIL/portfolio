@@ -111,6 +111,13 @@ export const sampler_projects: ProjectList = [
 
 export const sampler_experience: ExperienceList = [
   {
+    title: 'Software Engineer',
+    timeframe: 'Feb 2025 - Present',
+    company: 'Meta Platforms',
+    description:
+      'Building large-scale messaging infrastructure for Messenger, Instagram Direct, and Threads (3B+ daily messages). Improved message fanout reliability from 99.86% to 99.99% (4 nines) via critical reads and retry mechanisms. Blocked 24.7M invalid messages in 31 days, reducing user-facing errors by 93.7% for 2B+ Instagram users. Projected $1M+ annual infrastructure savings through message field schematization. Automated 80% of a 600+ entity migration using an AI-powered agent — saving 2+ engineer-years. Shipped Threads Live Chat backend (April 2026). Led team-wide AI developer tools initiative (8/13 engineers): E2E test agents, oncall triage automation, onboarding generators.',
+  },
+  {
     title: 'Software Engineer II Intern',
     timeframe: 'May 2024 - August 2024',
     company: 'Cisco',
@@ -119,17 +126,17 @@ export const sampler_experience: ExperienceList = [
   },
   {
     title: 'Master of Science in Software Engineering',
-    timeframe: 'Aug 2023 - May 2025',
+    timeframe: 'Aug 2023 - May 2025 (Graduated)',
     company: 'San Jose State University',
     description:
-      'Specialization - Enterprise Software Technologies , Coursework - Software Systems Engineering, Data Mining, Enterprise Distributed Systems, Enterprise Software Platforms, Machine Learning',
+      'Specialization - Enterprise Software Technologies. Coursework - Software Systems Engineering, Data Mining, Enterprise Distributed Systems, Enterprise Software Platforms, Machine Learning.',
   },
   {
     title: 'Software Engineer',
     timeframe: 'Jul 2021 - Jul 2023',
     company: 'AIVIDTechvision Pvt Ltd',
     description:
-      'Led the development of an analytics platform for video intelligence in computer vision products. Achievements include optimizing data storage, automating dashboard creation, and extracting actionable insights from large data volumes, resulting in significant cost and time savings. Expertise in server implementation using Hapi, integration of Elasticsearch and Kubernetes, and streamlining CI/CD pipelines with GitHub Actions. ',
+      'Designed and maintained a React component library with full Storybook documentation — saving 125+ engineering hours/month across all product teams. Built a custom React + HapiJS plugin to extract KPIs from billions of computer vision bot logs, delivering a 30% boost in actionable insights. Reduced storage costs by 5x and extended data retention from 1 month to 6 months by architecting a distributed rollup system. Elevated Sonarqube test coverage from 70% to 98% and mentored 3 junior frontend engineers.',
   },
   {
     title: 'Software Engineer Intern',

@@ -33,9 +33,10 @@ export default function Home() {
               <p>
                 A <span className='bold'>software engineer</span> with a passion
                 in <span className='bold'>full stack development</span> and{' '}
-                <span className='bold'>competitive coding</span>. A graduate
-                student majoring in Software Engineering with a focus on
-                Enterprise software.
+                <span className='bold'>competitive coding</span>. MS in Software
+                Engineering from San Jose State University, currently building
+                messaging infrastructure at{' '}
+                <span className='bold'>Meta Platforms</span>.
               </p>
             </section>
             <section className='flex justify-end gap-[10px] pt-8'>
@@ -71,18 +72,18 @@ export default function Home() {
               enterprises.
             </p>
             <p>
-              I bring 3 years of hands-on experience from cisco and AI-based startups
-              where I delivered centralized analytics tools for multinational
-              businesses. Experience in managing large data, crafting
-              user-friendly web apps, and automating tasks for streamlined
-              development.
+              4+ years of experience building large-scale distributed systems
+              and frontend platforms. At Meta, I delivered $1.5M+ in combined
+              annual OPEX savings by modernizing messaging infrastructure across
+              Facebook, Instagram, and Threads. Previously built React component
+              libraries and KPI dashboards at an AI startup, saving 125+
+              engineering hours per month.
             </p>
             <p>
-              I frequently dedicate time to enhance my current skills in
-              React.js, Tailwind, TypeScript, Node.js and Python aiming to write
-              clean and efficient code.
+              Strong in React, TypeScript, Node.js, and distributed systems.
+              I care about writing clean, performant code and shipping things
+              that move metrics.
             </p>
-            <p>Currently learning Next.js, Electron, GraphQL, Redis, AWS.</p>
           </span>
         </header>
         <ProjectSection />
